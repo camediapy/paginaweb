@@ -31,7 +31,7 @@ export default function Nav() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/40 backdrop-blur supports-[backdrop-filter]:bg-black/40">
       <nav className="container-px mx-auto flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2 text-lg font-bold">
-          <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-primary/20 ring-1 ring-primary/30">🎛️</span>
+          <img className="inline-flex h-7 w-auto items-center justify-center" src='camedia_logo_white.png'></img>
           Camedia
         </a>
 

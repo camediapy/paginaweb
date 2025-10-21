@@ -15,7 +15,7 @@ export default function Hero() {
           Sitios rápidos, diseño pulido, <span className="text-accent">resultados reales</span>.
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-white/70">
-          En Camedia convertimos ideas en experiencias web medibles. Páginas hechas con Vite + Tailwind v4 y buenas prácticas.
+          En Camedia pasamos tu marca al siguiente nivel: experiencias web a medida y diseño de redes sociales. Todo optimizado para convertir visitantes en clientes.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a href="#contacto" className="btn-primary">Pedir presupuesto</a>
