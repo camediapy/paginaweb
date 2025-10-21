@@ -4,8 +4,8 @@ export default function FAQ() {
     { q: '¿Qué necesito preparar?', a: 'Logo, estilo deseado, textos/fotos iniciales y referencias si las hay.' },
     { q: '¿Puedo editar el contenido?', a: 'Sí, con CMS headless opcional; si no, pedinos cambios puntuales.' },
     { q: '¿El SEO viene incluido?', a: 'Base técnica (metas, OG, sitemap, robots, schema simple) y guía de contenidos.' },
-    { q: '¿Hosting y dominio?', a: 'Hosting en Vercel; dominio a cargo del cliente (te asistimos en la conexión).' },
-    { q: '¿Pagos online?', a: 'Stripe/Mercado Pago en Plus (o Pro si es simple).' },
+    { q: '¿Hosting y dominio?', a: 'Hosting en Vercel, Cloudflare Pages y más; dominio a cargo del cliente (te asistimos en la conexión).' },
+    { q: '¿Pagos online?', a: 'Stripe/Pagopar en Plus (o Pro si es simple).' },
     { q: '¿Soporte post-lanzamiento?', a: 'Incluimos soporte de salida; planes de mantenimiento opcionales.' },
   ];
 
