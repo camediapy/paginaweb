@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a href="#contacto" className="btn-primary">Pedir presupuesto</a>
-          <a href="#portfolio" className="btn-ghost">Ver trabajos</a>
+          <a href="/portfolio" className="btn-ghost">Ver trabajos</a>
         </div>
         <div className="mt-10 grid w-full max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2">
           <FeatureCard title="Performance primero" desc="Lighthouse 90+ de base con optimización de assets y Web Vitals."/>
