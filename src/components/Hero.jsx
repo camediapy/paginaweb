@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import FeatureCard from './FeatureCard.jsx'
 
 export default function Hero() {
@@ -15,11 +16,12 @@ export default function Hero() {
           Sitios rápidos, diseño pulido, <span className="text-accent">resultados reales</span>.
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-white/70">
-          En Camedia pasamos tu marca al siguiente nivel: experiencias web a medida y diseño de redes sociales. Todo optimizado para convertir visitantes en clientes.
+          En Camedia pasamos tu marca al siguiente nivel: experiencias web a medida y diseño de redes sociales. 
+          Todo optimizado para convertir visitantes en clientes.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a href="#contacto" className="btn-primary">Pedir presupuesto</a>
-          <a href="/portfolio" className="btn-ghost">Ver trabajos</a>
+          <Link to="/portfolio" className="btn-ghost">Ver trabajos</Link>
         </div>
         <div className="mt-10 grid w-full max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2">
           <FeatureCard title="Performance primero" desc="Lighthouse 90+ de base con optimización de assets y Web Vitals."/>
