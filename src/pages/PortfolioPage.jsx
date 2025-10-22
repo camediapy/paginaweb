@@ -2,8 +2,9 @@ export default function PortfolioPage() {
   const works = [
     { name: 'Cafetería & Panadería', tag: 'Landing', url: '#' },
     { name: 'Taller Luthier', tag: 'Sitio + pagos', url: '#' },
-    { name: 'Estudio Tatuajes', tag: 'Portfolio', url: '#' },
+    { name: 'Plantasia', tag: 'Sitio web', url: '#' },
     { name: 'Progheads_PY', tag: 'Blog musical', url: '#' },
+    { name: 'Portfolio Fedebarriosd', tag: 'Portfolio', url: '#' },
     // sumar más trabajos reales cuando estén listos
   ]
 
